@@ -1,8 +1,11 @@
 <?php
 
-namespace App\Tests;use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
+namespace App\Tests;
+
+use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 class DefaultControllerTest extends WebTestCase
+
 {    public function testLoginPage()
    {
        // create Client
@@ -13,6 +16,7 @@ class DefaultControllerTest extends WebTestCase
        $this->assertSame(200, $client->getResponse()->getStatusCode());
        // Check that the `Email` text is in the `body` tag
        $this->assertContains('Email', $crawler->filter('body')->text());
-       // Check that the `mot de passe` text is in the `body` tag
+       // Check that the `Password` text is in the `body` tag
        $this->assertContains('Mot de passe', $crawler->filter('body')->text());
+
    }}
