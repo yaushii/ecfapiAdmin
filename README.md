@@ -38,7 +38,7 @@ eval: execution en shell de code. Ça peut potentiellement prendre le contrôle 
 
 ## Anglais
 
-nstall symfony and the platform API
+Install symfony and the platform API
 
 -To create a new symfony folder enter the command below:
 
