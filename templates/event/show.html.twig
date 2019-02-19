@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+<article>
+    <h2>{{ events.nom }}</h2>
+    <metadata>debute le {{ events.dateStart | date('d/m/Y') }}à {{ events.dateStart | date('h:i') }} et fini le {{ events.dateEnd| date('d/m/Y')}} à {{ events.dateStart | date('h:i') }}</metadata>
+    <div class="content">
+        <img src="https://via.placeholder.com/300" alt="">
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa molestiae, nemo modi cumque fugit quis a
+            maxime expedita sunt recusandae sequi facere explicabo magnam vitae praesentium, eum pariatur amet soluta!
+            Sit quibusdam incidunt natus neque corporis dicta nesciunt at inventore placeat odit voluptatibus dolorem,
+            laudantium tempora reiciendis, enim veniam minima!</p>
+        <p>Sunt cumque consectetur quam voluptatibus sint porro, rerum modi architecto autem quisquam totam optio,
+            repellendus accusamus. Quam, alias hic magni velit corrupti accusantium. Impedit eos itaque nisi illo
+            incidunt reiciendis commodi quis sequi veritatis omnis saepe sed maiores quas ipsa consequuntur, rem soluta
+            quos cupiditate alias modi quibusdam? Voluptate, praesentium.</p>
+</article>
+
+{% endblock %}

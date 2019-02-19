@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% form_theme formEvents 'bootstrap_4_layout.html.twig' %}
+
+{% block body %}
+
+<h1>ajout d'un event</h1>
+
+{{ form_start(formEvents) }}
+
+{{ form(formEvents) }}
+
+{{ form_start(formEvents) }}
+
+<button type="submit" class='btn btn-success'>Ajouter</button>
+
+{% endblock %}
