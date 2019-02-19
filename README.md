@@ -57,6 +57,7 @@ php bin / phpunit
 ## command to start the search for security vulnerabilities.
 
 after installing phppc in the folder concerned with:
+
 $ git clone https://github.com/FloeDesignTechnologies/phpcs-security-audit.git
 ```
 $ cd phpcs-security-audit
