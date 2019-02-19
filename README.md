@@ -33,3 +33,35 @@ phpcs --extensions=php,inc,lib,module,info
 RFI: remote file insertion. Une vilaine faille qui peut vous faire rejoindre un botnet
 
 eval: execution en shell de code. Ça peut potentiellement prendre le contrôle de votre serveur
+
+
+
+## Anglais
+
+nstall symfony and the platform API
+
+-To create a new symfony folder enter the command below:
+
+$ composer create-project symfony / website-skeleton my-project
+
+then to install the api in the files.
+
+$ composer require api
+
+then create your entity and the database.
+order to launch the unit tests.
+
+php bin / phpunit
+command to start the search for security vulnerabilities.
+
+after installing phppc in the folder concerned with:
+$ git clone https://github.com/FloeDesignTechnologies/phpcs-security-audit.git
+```
+$ cd phpcs-security-audit
+$ composer install
+```
+phpcs --extensions=php,inc,lib,module,info
+
+RFI: remote file insertion. An ugly flaw that can make you join a botnet
+
+eval: code shell execution. It can potentially take control of your server
