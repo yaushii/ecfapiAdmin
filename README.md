@@ -38,7 +38,7 @@ eval: execution en shell de code. Ça peut potentiellement prendre le contrôle 
 
 ## Anglais
 
-##Install symfony and the platform API
+## Install symfony and the platform API
 
 -To create a new symfony folder enter the command below:
 
@@ -50,11 +50,11 @@ $ composer require api
 
 then create your entity and the database.
 
-##order to launch the unit tests.
+## order to launch the unit tests.
 
 php bin / phpunit
 
-##command to start the search for security vulnerabilities.
+## command to start the search for security vulnerabilities.
 
 after installing phppc in the folder concerned with:
 $ git clone https://github.com/FloeDesignTechnologies/phpcs-security-audit.git
