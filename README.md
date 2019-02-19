@@ -19,7 +19,7 @@ php bin/phpunit
 
 ## commande pour lancer la recherche des faille de securité.
 
-phpcs --extensions=php,inc,lib,module,info
+
 
 apres avoir installer phppc dans le dossier concerner avec:
 
@@ -28,7 +28,7 @@ $ git clone https://github.com/FloeDesignTechnologies/phpcs-security-audit.git
 $ cd phpcs-security-audit
 $ composer install
 ```
-
+phpcs --extensions=php,inc,lib,module,info
 
 RFI: remote file insertion. Une vilaine faille qui peut vous faire rejoindre un botnet
 
